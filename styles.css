@@ -651,6 +651,7 @@ h1, h2, h3, h4 {
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.75;
+  mix-blend-mode: multiply;
   transition: opacity 0.2s;
 }
 .clients__item img:hover { opacity: 1; }
