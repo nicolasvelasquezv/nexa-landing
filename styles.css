@@ -649,8 +649,8 @@ h1, h2, h3, h4 {
   width: auto;
   max-width: 180px;
   object-fit: contain;
-  filter: brightness(0) saturate(100%) invert(26%) sepia(39%) saturate(576%) hue-rotate(131deg) brightness(93%);
-  opacity: 0.85;
+  filter: grayscale(100%);
+  opacity: 0.75;
   transition: opacity 0.2s;
 }
 .clients__item img:hover { opacity: 1; }
