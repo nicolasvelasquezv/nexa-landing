@@ -629,7 +629,37 @@ h1, h2, h3, h4 {
   .testimonials__grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* ── 15. FINAL CTA ───────────────────────────────────────────── */
+/* ── 15. CLIENTS ─────────────────────────────────────────────── */
+.clients { background: var(--clr-secondary); }
+.clients__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem 4rem;
+  margin-top: 2.5rem;
+}
+.clients__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients__item img {
+  height: 56px;
+  width: auto;
+  max-width: 180px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(26%) sepia(39%) saturate(576%) hue-rotate(131deg) brightness(93%);
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.clients__item img:hover { opacity: 1; }
+@media (min-width: 768px) {
+  .clients__grid { gap: 3rem 6rem; }
+  .clients__item img { height: 64px; }
+}
+
+/* ── 16. FINAL CTA ───────────────────────────────────────────── */
 .cta-final {
   background: var(--clr-primary);
   padding: var(--section-pad) 0;
@@ -661,7 +691,7 @@ h1, h2, h3, h4 {
 }
 .cta-final__phone a:hover { text-decoration: underline; }
 
-/* ── 16. FOOTER ──────────────────────────────────────────────── */
+/* ── 17. FOOTER ──────────────────────────────────────────────── */
 .footer {
   background: #131a19;
   color: rgba(255,255,255,0.65);
