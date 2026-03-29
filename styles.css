@@ -645,9 +645,9 @@ h1, h2, h3, h4 {
   justify-content: center;
 }
 .clients__item img {
-  height: 90px;
+  height: 140px;
   width: auto;
-  max-width: 260px;
+  max-width: 340px;
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.75;
@@ -657,7 +657,7 @@ h1, h2, h3, h4 {
 .clients__item img:hover { opacity: 1; }
 @media (min-width: 768px) {
   .clients__grid { gap: 3rem 6rem; }
-  .clients__item img { height: 110px; }
+  .clients__item img { height: 170px; }
 }
 
 /* ── 16. FINAL CTA ───────────────────────────────────────────── */
