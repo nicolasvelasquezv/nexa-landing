@@ -54,3 +54,20 @@ Estilo flat: sin sombras, sin bordes redondeados. El logo se muestra blanco sobr
 Sin dependencias de backend. Para actualizar en Netlify: reemplazar archivos en [app.netlify.com/drop](https://app.netlify.com/drop).
 
 El logo fuente original está en `~/Desktop/nexa branding/NEXAVECTORES.ai`.
+## Deploy actualizado (desde Mar 2026)
+
+El proyecto está conectado a GitHub. Para publicar cambios:
+```bash
+git add . && git commit -m "descripcion" && git push
+```
+
+Netlify detecta el push y despliega automáticamente en ~30 segundos.
+Repositorio: https://github.com/nicolasvelasquezv/nexa-landing
+
+## Instrucciones para Claude Code
+
+- Siempre preservar colores de branding (#2a5f5c, #cbe4c5)
+- No cambiar la fuente Fifties Variable
+- Las imágenes de servicios son URLs de Unsplash
+- No tocar el logo.png ni la carpeta fonts/
+- El sitio no tiene backend ni build step — solo HTML/CSS/JS puro
