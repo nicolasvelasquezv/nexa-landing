@@ -61,7 +61,7 @@ El proyecto está conectado a GitHub. Para publicar cambios:
 git add . && git commit -m "descripcion" && git push
 ```
 
-Netlify detecta el push y despliega automáticamente en ~30 segundos.
+Vercel detecta el push y despliega automáticamente en ~30 segundos.
 Repositorio: https://github.com/nicolasvelasquezv/nexa-landing
 
 ## Instrucciones para Claude Code
